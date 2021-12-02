@@ -1,21 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsTraining.Decorator
+﻿namespace DesignPatternsTraining.Decorator
 {
-    public abstract class CondimentDecorator : Beverage
+    public abstract class CondimentDecorator : BaseBeverage
     {
-        public Beverage Beverage { get; set; }
+        public BaseBeverage Beverage { get; set; }
 
-        public CondimentDecorator(Beverage beverage)
+        public CondimentDecorator(BaseBeverage beverage)
         {
             Beverage = beverage;
         }
-
-        public new abstract string GetDescription();
-        public override abstract double Cost();
     }
 }

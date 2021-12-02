@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsTraining.Decorator
+﻿namespace DesignPatternsTraining.Decorator
 {
-    public class DarkRoast : Beverage
+    public class DarkRoast : BaseBeverage
     {
-        
-        public override double Cost()
-        {
-            return 1;
-        }
+        public override double Cost() => 1;
+
+        public override string GetDescription() => "Dark Roast";
     }
 }

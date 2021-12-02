@@ -1,26 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsTraining.Decorator
+﻿namespace DesignPatternsTraining.Decorator
 {
     public class Mocha : CondimentDecorator
     {
-        public Mocha(Beverage beverage)
+
+        public Mocha(BaseBeverage beverage) : base(beverage)
         {
-            Beverage = beverage;
         }
 
-        public override double Cost()
-        {
-            return Beverage.Cost() + 2;
-        }
+        public override double Cost() => Beverage.Cost() + 2;
 
-        public override string GetDescription()
-        {
-            throw new NotImplementedException();
-        }
+        public override string GetDescription() => $"{Beverage.GetDescription()} Mocha";
     }
 }
