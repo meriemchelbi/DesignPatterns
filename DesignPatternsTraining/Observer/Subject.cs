@@ -26,6 +26,11 @@ namespace DesignPatternsTraining.Observer
             NotifyObservers();
         }
 
+        public int GetValue()
+        {
+            return _value;
+        }
+
         private void NotifyObservers()
         {
             _observers.ForEach(o => o.Update(_value));
