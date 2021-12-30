@@ -14,15 +14,16 @@ namespace DesignPatternsTraining
     {
         static void Main(string[] args)
         {
-            StrategyProgramme.Strategy();
-            AdaptorProgramme.Adaptor();
-            DecoratorProgramme.Decorator();
-            ProxyProgramme.Proxy();
-            CommandProgramme.Command();
-            CompositeProgramme.Composite();
-            IteratorProgramme.Iterator();
-            ObserverProgramme.Observer();
-            TemplateMethodProgramme.TemplateMethod();
+            //StrategyProgramme.Strategy();
+            //AdaptorProgramme.Adaptor();
+            //DecoratorProgramme.Decorator();
+            //ProxyProgramme.Proxy();
+            //CommandProgramme.Command();
+            //CompositeProgramme.Composite();
+            //IteratorProgramme.Iterator();
+            //ObserverProgramme.Observer();
+            //TemplateMethodProgramme.TemplateMethod();
+            SingletonProgramme.Singleton();
         }
     }
 }

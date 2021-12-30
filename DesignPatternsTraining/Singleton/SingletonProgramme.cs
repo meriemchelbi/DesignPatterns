@@ -4,9 +4,13 @@ namespace DesignPatternsTraining.Singleton
 {
     public static class SingletonProgramme
     {
-        public static void TemplateMethod()
+        public static void Singleton()
         {
-            Console.WriteLine("Template Method pattern...");
+            Console.WriteLine("Singleton pattern...");
+
+            MySingleton.GetInstance();
+            MySingleton.GetInstance();
+            MySingleton.GetInstance();
         }
     }
 }
