@@ -4,8 +4,9 @@ using DesignPatternsTraining.Composite;
 using DesignPatternsTraining.Decorator;
 using DesignPatternsTraining.Iterator;
 using DesignPatternsTraining.Observer;
+using DesignPatternsTraining.Singleton;
 using DesignPatternsTraining.Strategy;
-using DesignPatternsTraining.Template_Method;
+using DesignPatternsTraining.TemplateMethod;
 
 namespace DesignPatternsTraining
 {

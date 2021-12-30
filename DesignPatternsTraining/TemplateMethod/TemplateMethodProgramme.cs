@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternsTraining.Template_Method
+namespace DesignPatternsTraining.TemplateMethod
 {
     public static class TemplateMethodProgramme
     {

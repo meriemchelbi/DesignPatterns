@@ -27,7 +27,7 @@ namespace DesignPatternsTraining.Observer
 
             victim.SetValue(15);
 
-            // Here's more of a pub/sub model
+            // Here's more of a pub/sub model - the observer is notified of an update but chooses when to fetch the data.
             var suspect = new Subject();
             var detective = new Observer("detective", suspect);
 
@@ -38,7 +38,6 @@ namespace DesignPatternsTraining.Observer
             Console.WriteLine($"Detective value {detective.GetValue()}");
             detective.UpdateAsync();
             Console.WriteLine($"Detective value {detective.GetValue()}");
-
         }
     }
 }
