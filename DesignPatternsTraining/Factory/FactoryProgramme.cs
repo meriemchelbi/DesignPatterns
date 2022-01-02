@@ -6,6 +6,7 @@ namespace DesignPatternsTraining.Factory
     {
         public static void Factory()
         {
+            // See also Factory Method & Abstract Factory patterns in slides/book
             Console.WriteLine("Factory pattern...");
 
             var factory = new SimplePizzaFactory();
