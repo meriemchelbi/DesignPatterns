@@ -8,6 +8,7 @@ using DesignPatternsTraining.Iterator;
 using DesignPatternsTraining.Observer;
 using DesignPatternsTraining.Prototype;
 using DesignPatternsTraining.Singleton;
+using DesignPatternsTraining.State;
 using DesignPatternsTraining.Strategy;
 using DesignPatternsTraining.TemplateMethod;
 
@@ -29,7 +30,8 @@ namespace DesignPatternsTraining
             //SingletonProgramme.Singleton();
             //PrototypeProgramme.Prototype();
             //FactoryProgramme.Factory();
-            BuilderProgramme.Builder();
+            //BuilderProgramme.Builder();
+            StateProgramme.State();
         }
     }
 }
